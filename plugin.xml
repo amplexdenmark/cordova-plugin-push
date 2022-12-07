@@ -65,7 +65,7 @@
     </config-file>
 
     <preference name="ANDROIDX_CORE_VERSION" default="1.6.+"/>
-    <preference name="FCM_VERSION" default="23.+"/>
+    <preference name="FCM_VERSION" default="20.+"/>
 
     <framework src="androidx.core:core:$ANDROIDX_CORE_VERSION" />
     <framework src="me.leolin:ShortcutBadger:1.1.22@aar"/>
@@ -92,7 +92,7 @@
   </platform>
 
   <platform name="ios">
-    <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="~> 8.1.1"/>
+    <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="~> 10.3.0"/>
 
     <config-file target="config.xml" parent="/*">
       <feature name="PushNotification">
